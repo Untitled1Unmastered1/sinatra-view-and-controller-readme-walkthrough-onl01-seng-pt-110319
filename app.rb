@@ -13,6 +13,7 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
+    @friends = ['Emily Wilding Davison', ]
     # Write your code here!
 
   end
